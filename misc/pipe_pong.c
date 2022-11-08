@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <time.h>
+#include <sys/resource.h>
 
 
 
@@ -32,8 +33,11 @@ int main (void)
 
     if(cpid == 0)
     {
+        clock_t c_start, c_stop;
         double count = 0;
+        double r_time;
         close(pipefd0[1]); /* this is the writing end */
+        c_start = clock();
         while(read(pipefd0[0], &buf, 1) > 0)
         {
             write(pipefd1[1], &buf, 1);
@@ -41,6 +45,9 @@ int main (void)
             stop = time(NULL);
             if(stop - start > 1)
             {
+                c_stop = clock();
+                r_time = (c_stop - c_start);
+                printf("clock() time: %.2fs\n", r_time / CLOCKS_PER_SEC);
                 printf("exchanges in a second: %ld\n", (unsigned long) count);
                 printf("average RTT %f\n", (1 / count) * 1000);
                 close(pipefd1[1]);
