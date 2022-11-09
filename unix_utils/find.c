@@ -5,6 +5,10 @@
 
 /*
  *
+ * Time taken: 2:45 
+ *
+ * NOTES
+ *
  *  struct stat {
  *  int dev;     // File system's disk device
  *  uint ino;    // Inode number

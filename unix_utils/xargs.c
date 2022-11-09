@@ -4,9 +4,14 @@
 #include "kernel/param.h"
 
 /*
+ * time taken 2:25
  *
  * Implementation of xargs
  * 
+ *
+ *
+ * NOTES
+ *
  * calls exec(*char, *args[]);
  *
  * when using exec *args[] must have NULL as last arg

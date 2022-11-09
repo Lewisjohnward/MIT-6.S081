@@ -3,9 +3,13 @@
 #include "user/user.h"
 
 /*
+ *
+ * time taken 10 mins
  * 
  * prints the system uptime in terms of ticks using
  * the uptime syscall
+ *
+ * 
  *
  */
 
