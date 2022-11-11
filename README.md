@@ -14,7 +14,7 @@
 
 
 ### Assignments
-- [ ] Unix utilities
-- [ ] System calls
+- [ ] [Unix utilities](https://github.com/Lewisjohnward/MIT-6.S081/tree/main/unix_utils)
+- [ ] [System calls](https://github.com/Lewisjohnward/MIT-6.S081/tree/main/syscall)
 - [ ] Page tables
 - [ ] Traps
