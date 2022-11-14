@@ -1,4 +1,4 @@
-# MIT 6.8S01 : Operating System Engineering
+# MIT 6.8S01 : Operating System Engineering :wrench:
 
 ### Useful Resources
 [Course link](https://pdos.csail.mit.edu/6.S081/2020/)
