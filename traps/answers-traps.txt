@@ -1,0 +1,42 @@
+Which registers contain arguments to functions? E.g. Which register holds 13 in main's call to printf
+
+
+    a2 holds 13
+    a1 holds 12
+
+ 
+Where is the call to function f in the assembly code for main?
+
+    There is no call to function f in the assembly code, its been replaced by 
+    li a1, 12
+
+At what address is the function printf located?
+
+    It is at address 630
+
+    30: aupic ra, 0x0
+    34: jalr 1536(ra) => PC relative jump 1536 in dec is 600
+
+
+What value is in the register ra just after the jalr to prinf in main?
+
+    0
+
+What is the output of given code?
+
+    HE110 World
+    
+    Big endian
+    0x726c6400
+       
+
+What is printed after y=?
+    
+    Behaviour is undefined. 
+
+    
+
+
+
+
+
