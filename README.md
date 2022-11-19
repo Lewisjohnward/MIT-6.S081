@@ -18,5 +18,5 @@
 ### Assignments
 - [x] [Unix utilities](https://github.com/Lewisjohnward/MIT-6.S081/tree/main/unix_utils)
 - [x] [System calls](https://github.com/Lewisjohnward/MIT-6.S081/tree/main/syscall)
-- [ ] Page tables
-- [ ] Traps
+- [ ] Page tables - WIP HARD AF
+- [x] [Trap](https://github.com/Lewisjohnward/MIT-6.S081/tree/main/traps)
