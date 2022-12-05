@@ -9,6 +9,18 @@
 
 [RISC-V ISA specifications](https://riscv.org/technical/specifications/)
 
+### Overview
+User space
+System calls
+Virtualisation of memory
+Processes:
+        - Multithreading
+        - Parallelism
+File system
+Network stack
+
+
+
 ### Homework
 - [ ] Homework1
 - [ ] Homework2
