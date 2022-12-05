@@ -11,7 +11,7 @@
 
 ### Overview
 User space
-System calls
+Systemtin calls
 Virtualisation of memory
 Processes:
         - Multithreading
@@ -33,3 +33,10 @@ Network stack
 - [ ] Page tables - WIP HARD AF
 - [x] [Trap](https://github.com/Lewisjohnward/MIT-6.S081/tree/main/traps)
 - [ ] [Lazy]()
+- [ ] Lazy allocation
+- [ ] Copy-on-write fork
+- [ ] Multihreading
+- [ ] Parallelism/locking
+- [ ] File system
+- [ ] Mmap
+- [ ] Network Stack
